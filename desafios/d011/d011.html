@@ -5,14 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+        #container {
+            background-image: url('imagens/espaco.jpg');
+            background-size: 100% 100%;
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+        }
+        #conteudo {
+            background-image: url('imagens/astronauta.png');
+            background-size: 100% 100%;
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
+            
+            
+        }
     </style>
 </head>
 <body>
-    <picture>
-        <img src="imagens/astronauta.png" alt="astronauta">
-        <img src="imagens/espaco.jpg" alt="">
-    </picture>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+       
+    
+    
 </body>
 
 </html>
