@@ -15,9 +15,21 @@ header > h1 {
     padding: 10px;
     text-align: center;
 }
+i#burger {
+    background-color: rgb(83, 82, 82);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burger:hover {
+    background-color: white;
+    color: black;
+}
 
 menu {
-    display: block;
+    display: none;
 }
 menu > ul {
     list-style-type: none;
@@ -27,12 +39,12 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(93, 129, 130);
     color: white;
-    border-top: 2px solid gray;
+    border-top: 2px solid rgb(108, 108, 108);
 }
 menu > ul > li > a:hover {
-    background-color: gray;
+    background-color: rgb(28, 105, 133);
 }
 main {
     width: 90vw;
